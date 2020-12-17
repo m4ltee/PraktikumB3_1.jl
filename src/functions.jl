@@ -11,7 +11,7 @@ function divide_jl(data::Array, Δt::Real)
     return counts
 end
 function binomial_jl(data::Array, Δt::Real, n::Int)
-    counts = divide(data, Δt)
+    counts = divide_jl(data, Δt)
     hist1 = []
     for i in 1:length(counts)
         while length(hist1) < counts[i]+1

@@ -74,7 +74,7 @@ Diese Funktion arbeitet nicht mit .txt Dateien sondern mit arrays.
 ### Argumente
 - `data::Array`: enthält die Messzeiten (erster Parameter)
 - `Δt::Real`: Länge der Intervalle in s (zweiter Parameter)
-- `n::Int`: Binningparameter (dritter Parameter)
+- `n::Int`: step, gibt an ob Zeit bis zum nächsten, übernächsten, ... betrachtet wird (dritter Parameter)
 
 ### Rückgabewert
 - `x::Array`: enthält die x-Werte der Intervallverteilung
